@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PlayboxTV – TV Prototype</title>
+<link rel="stylesheet" href="styles.css?v=7">
+</head>
+<body>
+<!--
+  PlayboxTV TV prototype (Home).
+  Keyboard = TV remote:  Arrow keys = D-Pad  |  Enter = OK (hold Enter = long-press)  |  Delete / Backspace = Back
+  The mouse is intentionally ignored.
+-->
+<div id="viewport">
+  <div id="stage">
+    <div id="bd"><div class="bdl"><div class="amb"></div><div class="fg"></div></div><div class="bdl"><div class="amb"></div><div class="fg"></div></div><div id="bdv"><video muted loop playsinline preload="none"></video></div></div>
+    <div id="page"></div>
+    <div id="details"></div>
+    <div id="nav"></div>
+    <div id="scrim"></div>
+    <div id="drawerSub" class="drawer"></div>
+    <div id="drawerMenu" class="drawer"></div>
+    <div id="ph"></div>
+    <div id="toast"></div>
+  </div>
+</div>
+<script src="data.js?v=7"></script>
+<script src="app.js?v=7"></script>
+</body>
+</html>
